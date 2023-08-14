@@ -3,10 +3,32 @@
 }
 
 h1 {
-    color: red;
+    color: black;
 }
 
 a {
     font-weight: bold;
     color: purple;
+    display: block;
+}
+
+img {
+    image-rendering: crisp-edges;
+    width: auto;
+    height: auto;
+    padding: 8px;
+}
+
+.header {
+    background: lightgray;
+    padding: 8px;
+    margin: 8px;
+}
+
+.card {
+    background-color: lightgray;
+    padding: 8px;
+    margin: 12px;
+    text-align: center;
+    display: inline-block;
 }
