@@ -1,15 +1,10 @@
 * {
     font-family: "Times New Roman", sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
     color: black;
-}
-
-a {
-    font-weight: bold;
-    color: purple;
-    display: block;
 }
 
 img {
@@ -19,16 +14,28 @@ img {
     padding: 8px;
 }
 
+button {
+   font-size: large;
+}
+
 .header {
     background: lightgray;
-    padding: 8px;
-    margin: 8px;
+    padding: 4px 10px;
+    margin: 4px;
+    position: sticky;
+    top: 0;
 }
 
 .card {
     background-color: lightgray;
     padding: 8px;
     margin: 12px;
-    text-align: center;
     display: inline-block;
+}
+
+.button {
+    font-weight: bold;
+    color: Red;
+    display: block;
+    text-align: center;
 }
